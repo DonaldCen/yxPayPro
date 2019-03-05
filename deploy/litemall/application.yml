@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: db, core, admin, wx
+  message:
+    encoding: UTF-8
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root:  ERROR
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    org.yx.core:  ERROR
+    org.yx.db:  ERROR
+    org.yx.admin:  ERROR
+    org.yx.wx:  ERROR
+    org.yx:  ERROR
